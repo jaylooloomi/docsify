@@ -1,114 +1,89 @@
 # 知識聚合自動化
 
-<div class="card-grid">
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px;">
 
-  <a class="card" href="#/markdowns/github/README">
-    <div class="card-icon">🔥</div>
-    <div class="card-title">GitHub 熱門熱點</div>
-    <div class="card-desc">追蹤 GitHub 上最新最熱門的開源趨勢，掌握開發者社群動向。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
 
-  <a class="card" href="#/markdowns/japangirl/README">
-    <div class="card-icon">🌸</div>
-    <div class="card-title">日本暗黑行程</div>
-    <div class="card-desc">推薦日本黑馬達人氣的神秘旅遊路線，帶你發現不一樣的日本。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
+## 🔥
 
-  <a class="card" href="#/markdowns/worldnews/README">
-    <div class="card-icon">🌍</div>
-    <div class="card-title">世界熱門新聞</div>
-    <div class="card-desc">匯集全球最新最熱門的新聞事件，快速掌握世界脈動。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
+**GitHub 熱門熱點**
 
-  <a class="card" href="#/markdowns/makemoney/README">
-    <div class="card-icon">💰</div>
-    <div class="card-title">賺錢點子</div>
-    <div class="card-desc">彙整各種副業感想、被動收入切入點及剝羊毛教學，探索財富自由的可能性。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
+追蹤 GitHub 上最新最熱門的開源趨勢,掌握開發者社群動向。
 
-  <a class="card" href="#/markdowns/serviceprovider/README">
-    <div class="card-icon">🔧</div>
-    <div class="card-title">服務供應商</div>
-    <div class="card-desc">整理各項服務提供者接洽資訊，幫助你快速找到合適的合作方式。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
-
-  <a class="card" href="#/markdowns/sticker/README">
-    <div class="card-icon">🎨</div>
-    <div class="card-title">原創貼圖</div>
-    <div class="card-desc">收錄原創 LINE 貼圖設計過程與發佈資訊，分享創作心得。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
-
-  <a class="card" href="#/markdowns/chromeextension/README">
-    <div class="card-icon">🔩</div>
-    <div class="card-title">Chrome 擴充套件</div>
-    <div class="card-desc">精選提升生產力的 Chrome 擴充套件推薦與使用教學。</div>
-    <div class="card-link">→ 進入</div>
-  </a>
+[✔ 進入](markdowns/github/)
 
 </div>
 
-<style>
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-top: 32px;
-}
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
 
-.card {
-  display: block;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
-  border-radius: 12px;
-  padding: 32px 24px;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-}
+## 🌸
 
-.card:hover {
-  transform: translateY(-4px);
-  border-color: #00d4ff;
-  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.15);
-  text-decoration: none;
-}
+**日本暗黑行程**
 
-.card-icon {
-  font-size: 2.5rem;
-  margin-bottom: 12px;
-}
+探索日本小眾秘境和暗黑旅行路線,帶你發現不一樣的日本。
 
-.card-title {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #00d4ff;
-  margin-bottom: 12px;
-}
+[✔ 進入](markdowns/japangirl/)
 
-.card-desc {
-  font-size: 0.9rem;
-  color: #a0a0a0;
-  line-height: 1.5;
-  margin-bottom: 16px;
-}
+</div>
 
-.card-link {
-  font-size: 0.9rem;
-  color: #00d4ff;
-  font-weight: 500;
-}
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
 
-@media (max-width: 768px) {
-  .card-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-}
-</style>
+## 🌍
+
+**世界熱門新聞**
+
+匯總全球最新最熱門的新聞事件,快速掌握世界脈動。
+
+[✔ 進入](markdowns/worldnews/)
+
+</div>
+
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
+
+## 💰
+
+**賺錢點子**
+
+彙整各種被動收入與賺錢機會,探索財務自由的可能性。
+
+[✔ 進入](markdowns/makemoney/)
+
+</div>
+
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
+
+## 🛠️
+
+**服務供應商**
+
+整理各類服務提供者接洽資源,幫助你快速找到合適的合作方式。
+
+[✔ 進入](markdowns/serviceprovider/)
+
+</div>
+
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
+
+## 🎨
+
+**原創貼圖**
+
+收集原創 LINE 貼圖設計訂製發佈資訊,分享創作心得。
+
+[✔ 進入](markdowns/sticker/)
+
+</div>
+
+<div style="background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;">
+
+## 🔌
+
+**瀏覽器外掛**
+
+介紹實用的 Chrome 瀏覽器外掛,提升日常工作效率。
+
+[✔ 進入](markdowns/chromeextension/)
+
+</div>
+
+</div>
