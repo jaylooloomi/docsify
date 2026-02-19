@@ -44,6 +44,22 @@
         background-color: #0d0d0d;
       }
 
+      /* Center navbar links */
+      .app-nav {
+        text-align: center !important;
+        right: 0 !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .app-nav > ul {
+        display: flex !important;
+        justify-content: center !important;
+      }
+
       /* Navbar dropdown dark background */
       .app-nav ul {
         background-color: #111111 !important;
@@ -109,9 +125,14 @@
         line-height: 1.5;
         margin-bottom: 12px;
       }
-      .card-link {
-        font-size: 0.82rem;
+      .card-tag {
+        display: inline-block;
+        background: #1a3a4a;
         color: #00d4ff;
+        font-size: 0.7rem;
+        padding: 4px 10px;
+        border-radius: 12px;
+        margin: 2px;
       }
     </style>
   </head>
@@ -119,14 +140,20 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: '📚 知識聚合自動化',
-        repo: 'jaylooloomi/docsify',
+        name: "知識聚合自動化",
+        repo: "https://github.com/jaylooloomi/docsify",
         loadSidebar: true,
-        loadNavbar: true,
-        auto2top: true,
         subMaxLevel: 2,
+        auto2top: true,
+        search: {
+          paths: "auto",
+          placeholder: "🔍 搜尋...",
+          noData: "😞 找不到結果",
+          depth: 3,
+        },
       };
     </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
