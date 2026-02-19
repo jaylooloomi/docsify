@@ -12,7 +12,7 @@
   <a class="card" href="#/markdowns/japangirl/README">
     <div class="card-icon">🌸</div>
     <div class="card-title">日本暗黑行程</div>
-    <div class="card-desc">推薦日本黑馬人氣的神秘旅遊路線，帶你發現不一樣的日本。</div>
+    <div class="card-desc">推薦日本黑馬達人氣的神秘旅遊路線，帶你發現不一樣的日本。</div>
     <div class="card-link">→ 進入</div>
   </a>
 
@@ -26,21 +26,21 @@
   <a class="card" href="#/markdowns/makemoney/README">
     <div class="card-icon">💰</div>
     <div class="card-title">賺錢點子</div>
-    <div class="card-desc">彙整各種創業靈感、被動收入與副業機會，探索財務自由的可能性。</div>
+    <div class="card-desc">彙整各種副業感想、被動收入切入點及剝羊毛教學，探索財富自由的可能性。</div>
     <div class="card-link">→ 進入</div>
   </a>
 
   <a class="card" href="#/markdowns/serviceprovider/README">
     <div class="card-icon">🔧</div>
-    <div class="card-title">提供服務</div>
-    <div class="card-desc">整理各類服務提供與接案資源，幫助你快速找到合適的合作方式。</div>
+    <div class="card-title">服務供應商</div>
+    <div class="card-desc">整理各項服務提供者接洽資訊，幫助你快速找到合適的合作方式。</div>
     <div class="card-link">→ 進入</div>
   </a>
 
   <a class="card" href="#/markdowns/sticker/README">
     <div class="card-icon">🎨</div>
     <div class="card-title">原創貼圖</div>
-    <div class="card-desc">收錄原創 LINE 貼圖設計過程與發布資訊，分享創作心得。</div>
+    <div class="card-desc">收錄原創 LINE 貼圖設計過程與發佈資訊，分享創作心得。</div>
     <div class="card-link">→ 進入</div>
   </a>
 
@@ -94,19 +94,21 @@
 
 .card-desc {
   font-size: 0.9rem;
-  color: #aaa;
-  line-height: 1.6;
+  color: #a0a0a0;
+  line-height: 1.5;
   margin-bottom: 16px;
 }
 
 .card-link {
-  color: #00d4ff;
   font-size: 0.9rem;
+  color: #00d4ff;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
   .card-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 }
 </style>
