@@ -1,35 +1,15 @@
-<!-- markdownlint-disable first-line-h1 -->
+- 首頁
 
-- Getting started
+  - [介紹](README.md)
 
-  - [Quick start](quickstart.md)
-  - [Adding pages](adding-pages.md)
-  - [Cover page](cover.md)
-  - [Custom navbar](custom-navbar.md)
+- 🔥 GitHub 熱門熱點
 
-- Customization
+  - [總覽](markdowns/github/README.md)
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Emoji](emoji.md)
+- 🌸 日本暗黑行程
 
-- Guide
+  - [總覽](markdowns/japangirl/README.md)
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Embed Files](embed-files.md)
-  - [UI Kit](ui-kit.md)
+- 🌍 世界熱門新聞
 
-- Upgrading
-
-  - [v4 to v5](v5-upgrade.md)
-
-* [Awesome docsify](awesome.md)
-* [Changelog](changelog.md)
+  - [總覽](markdowns/worldnews/README.md)
