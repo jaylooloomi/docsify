@@ -1,6 +1,6 @@
 # 知識聚合自動化
 
-<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px;">
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px;">
 
 <div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
 
@@ -80,7 +80,7 @@
 
 **瀏覽器外掛**
 
-介紹實用的 Chrome 瀏覽器外掛開發與推薦，提升日常工作效率。
+介紹實用的 Chrome 外掛開發與推薦，提升日常工作效率。
 
 [➜ 進入](markdowns/chromeextension/)
 
