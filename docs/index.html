@@ -44,14 +44,14 @@
         background-color: #0d0d0d;
       }
 
-      /* Navbar: 置中 */
+      /* Navbar: 靠右 */
       .app-nav {
         position: fixed;
         top: 0;
-        right: 0;
-        left: 0;
+        right: 16px;
+        left: auto;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         padding: 12px 0;
         z-index: 100;
@@ -111,45 +111,58 @@
         border-radius: 12px;
         padding: 20px 16px;
         text-align: center;
-        text-decoration: none !important;
-        color: #e0e0e0 !important;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
-        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
       }
       .card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 8px 30px rgba(0, 212, 255, 0.35);
+        transform: translateY(-4px);
         border-color: #00d4ff;
-        color: #e0e0e0 !important;
+        box-shadow: 0 8px 24px rgba(0, 212, 255, 0.2);
       }
       .card-icon {
-        font-size: 36px;
-        margin-bottom: 8px;
+        font-size: 48px;
+        margin-bottom: 12px;
+        display: block;
       }
       .card-title {
-        font-size: 17px;
-        font-weight: 600;
+        font-size: 18px;
+        font-weight: bold;
         color: #00d4ff;
-        margin-bottom: 6px;
+        margin-bottom: 8px;
       }
       .card-desc {
-        font-size: 13px;
-        color: #aaa;
-        line-height: 1.4;
+        font-size: 14px;
+        color: #999;
+        line-height: 1.5;
       }
     </style>
   </head>
-
   <body>
+    <nav>
+      <a href="/">首頁</a>
+      <a href="#/knowledge">
+        知識分類
+        <ul>
+          <li><a href="#/markdowns/github/">🔥 GitHub 熱門熱點</a></li>
+          <li><a href="#/markdowns/japan/">🌑 日本暗黑行程</a></li>
+          <li><a href="#/markdowns/news/">🌍 世界熱門新聞</a></li>
+          <li><a href="#/markdowns/money/">💰 賺錢點子</a></li>
+          <li><a href="#/markdowns/services/">🛠️ 服務供應商</a></li>
+          <li><a href="#/markdowns/stickers/">🎨 原創貼圖</a></li>
+          <li><a href="#/markdowns/extensions/">🔌 瀏覽器外掛</a></li>
+        </ul>
+      </a>
+    </nav>
+
     <div id="app"></div>
     <script>
       window.$docsify = {
         name: "知識聚合自動化",
-        repo: "https://github.com/jaylooloomi/docsify",
+        repo: "jaylooloomi/docsify",
         loadSidebar: true,
         subMaxLevel: 3,
         auto2top: true,
-        loadNavbar: true,
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
