@@ -1,89 +1,23 @@
-# 知識聚合自動化
+# 📚 知識聯合自動化
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px;">
+> 專注於知識聚合,讓資訊自動流向你。
 
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+---
 
-## 🔥
+## 我們做什麼？
 
-**GitHub 熱門熱點**
+這裡是一個**自動化知識聚合平台**,透過技術手段持續收集、整理、呈現來自各領域的最新內容,讓你不需要花時間四處搜尋,只需在這裡就能掌握最新動態。
 
-追蹤 GitHub 上最新最熱門的開源趨勢，掌握開發者社群動向。
+---
 
-[➜ 進入](markdowns/github/)
+## 📂 知識分類
 
-</div>
+| 分類 | 說明 |
+|------|------|
+| 🔥 [GitHub 熱門熱點](markdowns/github/README.md) | 追蹤 GitHub 最新熱門開源專案與技術趨勢 |
+| 🌸 [日本暗黑行程](markdowns/japangirl/README.md) | 探索日本鮮為人知的神秘景點與暗黑路線 |
+| 🌍 [世界熱門新聞](markdowns/worldnews/README.md) | 匯集全球最新熱門新聞,快速掌握世界脈動 |
 
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+---
 
-## 🌑
-
-**日本暗黑行程**
-
-推薦日本黑馬人氣的神秘旅遊路線，帶你發現不一樣的日本。
-
-[➜ 進入](markdowns/japan/)
-
-</div>
-
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-
-## 🌍
-
-**世界熱門新聞**
-
-匯集全球最新最熱門的新聞事件，快速掌握世界脈動。
-
-[➜ 進入](markdowns/news/)
-
-</div>
-
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-
-## 💰
-
-**賺錢點子**
-
-彙整各種創業靈感、被動收入與副業機會，探索財務自由的可能性。
-
-[➜ 進入](markdowns/makemoney/)
-
-</div>
-
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-
-## 🛠️
-
-**提供服務**
-
-整理各類服務提供與接案資源，幫助你快速找到合適的合作方式。
-
-[➜ 進入](markdowns/serviceprovider/)
-
-</div>
-
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-
-## 🎨
-
-**原創貼圖**
-
-收錄原創 LINE 貼圖設計過程與發布資訊，分享創作心得。
-
-[➜ 進入](markdowns/sticker/)
-
-</div>
-
-<div style="border:1px solid #e8e8e8;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-
-## 🔌
-
-**瀏覽器外掛**
-
-介紹實用的 Chrome 外掛開發與推薦，提升日常工作效率。
-
-[➜ 進入](markdowns/chromeextension/)
-
-</div>
-
-</div>
+> 🚀 持續自動更新中,歡迎探索各個主題。
