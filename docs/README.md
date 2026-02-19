@@ -1,28 +1,15 @@
-# docsify
+# 📚 我的知識庫
 
-> A magical documentation site generator.
+歡迎來到這裡！這裡收錄了三大主題的精選內容：
 
-## What it is
+## 🔥 GitHub 熱門熱點
+追蹤 GitHub 上最新、最熱門的開源專案與技術趨勢，掌握開發者社群的最新動態。
 
-Docsify turns your Markdown files into a documentation website instantly. Unlike most other documentation site generator tools, it doesn't need to build HTML files. Instead, it dynamically loads and parses your Markdown files and displays them as a website. To get started, create an `index.html` file and [deploy it on GitHub Pages](deploy.md) (for more details see the [Quick start](quickstart.md) guide).
+## 🌸 日本暗黑行程
+探索日本鮮為人知的神秘景點與暗黑旅遊路線，帶你發現不一樣的日本。
 
-## Features
+## 🌍 世界熱門新聞
+匯集全球最新、最熱門的新聞事件，快速掌握世界脈動。
 
-- No statically built HTML files
-- Simple and lightweight
-- Smart full-text search plugin
-- Multiple themes
-- Useful plugin API
-- Emoji support
-
-## Examples
-
-Check out the [Showcase](https://github.com/docsifyjs/awesome-docsify#showcase) to see docsify in use.
-
-## Donate
-
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](https://github.com/QingWei-Li/donate). :heart:
-
-## Community
-
-Users and the development team are usually in the [Discord server](https://discord.gg/3NwKFyR).
+---
+> 持續更新中,歡迎探索各個主題 🚀
