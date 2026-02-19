@@ -1,6 +1,7 @@
-<!-- markdownlint-disable first-line-h1 -->
-
-- Translations
-
-  - [English](/)
-  - [简体中文](/zh-cn/)
+- [首頁](/)
+- 🔥 GitHub 熱門熱點
+  - [總覽](markdowns/github/README.md)
+- 🌸 日本暗黑行程
+  - [總覽](markdowns/japangirl/README.md)
+- 🌍 世界熱門新聞
+  - [總覽](markdowns/worldnews/README.md)
