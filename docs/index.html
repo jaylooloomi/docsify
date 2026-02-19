@@ -2,18 +2,57 @@
 <html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
-    <title>知識聚合自動化</title>
+    <title>知識聯合自動化</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" />
     <link rel="icon" href="https://api.iconify.design/fluent/brain-circuit-24-filled.svg?color=%2300d4ff" type="image/svg+xml" />
+    <style>
+      :root {
+        --theme-color: #00d4ff;
+      }
+      body {
+        background-color: #0d0d0d;
+        color: #e0e0e0;
+      }
+      .sidebar {
+        background-color: #111111;
+        border-right: 1px solid #222;
+      }
+      .sidebar ul li a {
+        color: #cccccc;
+      }
+      .sidebar ul li a:hover {
+        color: #00d4ff;
+      }
+      .app-name-link {
+        color: #00d4ff !important;
+        font-weight: bold;
+      }
+      .markdown-section h1,
+      .markdown-section h2,
+      .markdown-section h3 {
+        color: #00d4ff;
+      }
+      .markdown-section a {
+        color: #00d4ff;
+      }
+      .markdown-section code {
+        background: #1a1a1a;
+        color: #00d4ff;
+      }
+      .content {
+        background-color: #0d0d0d;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: '知識聚合自動化',
+        name: '📚 知識聯合自動化',
         repo: 'jaylooloomi/docsify',
         loadSidebar: true,
+        loadNavbar: true,
         auto2top: true,
         subMaxLevel: 2,
       };
