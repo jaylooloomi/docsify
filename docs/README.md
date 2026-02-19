@@ -1,27 +1,112 @@
-# 🚀 知識聚合自動化
+# 知識聚合自動化
 
-> 專注流程自動化，讓資訊自動流向你。
+<div class="card-grid">
 
----
+  <a class="card" href="#/markdowns/github/README">
+    <div class="card-icon">🔥</div>
+    <div class="card-title">GitHub 熱門熱點</div>
+    <div class="card-desc">追蹤 GitHub 上最新最熱門的開源趨勢，掌握開發者社群動向。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
-## 我們做什麼？
+  <a class="card" href="#/markdowns/japangirl/README">
+    <div class="card-icon">🌸</div>
+    <div class="card-title">日本暗黑行程</div>
+    <div class="card-desc">推薦日本黑馬人氣的神秘旅遊路線，帶你發現不一樣的日本。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
-這裡是一個**自動化知識聚合平台**，透過技術手段整理、收集、呈現來自各領域最新內容，讓你不需苦於搜尋四處翻找，只需在這裡就能掌握最新動態。
+  <a class="card" href="#/markdowns/worldnews/README">
+    <div class="card-icon">🌍</div>
+    <div class="card-title">世界熱門新聞</div>
+    <div class="card-desc">匯集全球最新最熱門的新聞事件，快速掌握世界脈動。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
----
+  <a class="card" href="#/markdowns/makemoney/README">
+    <div class="card-icon">💰</div>
+    <div class="card-title">賺錢點子</div>
+    <div class="card-desc">彙整各種創業靈感、被動收入與副業機會，探索財務自由的可能性。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
-## 🔂 知識分類
+  <a class="card" href="#/markdowns/serviceprovider/README">
+    <div class="card-icon">🔧</div>
+    <div class="card-title">提供服務</div>
+    <div class="card-desc">整理各類服務提供與接案資源，幫助你快速找到合適的合作方式。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
-| 分類 | 說明 |
-|------|------|
-| 🔥 [GitHub 熱門熱點](markdowns/github/README.md) | 追蹤 GitHub 最新熱門開源專案、技術趨勢和開發者社群動態 |
-| 🌸 [日本暗黑行程](markdowns/japangirl/README.md) | 探索日本小眾秘境和暗黑旅行路線 |
-| 🌍 [世界熱門新聞](markdowns/worldnews/README.md) | 匯集全球最新熱門新聞，快速掌握世界脈動 |
-| 💰 [賺錢方法](markdowns/makemoney/README.md) | 整理各種被動收入、副業和財務自由的實用方法 |
-| 🧩 [Chrome 擴充套件](markdowns/chromeextension/README.md) | 精選提升生產力的 Chrome 擴充套件推薦與教學 |
-| 🛠️ [服務供應商](markdowns/serviceprovider/README.md) | 整理各類 SaaS、API 和開發工具服務商資訊 |
-| 🎨 [貼圖收集](markdowns/sticker/README.md) | 收集各平台有趣、實用的貼圖包資源 |
+  <a class="card" href="#/markdowns/sticker/README">
+    <div class="card-icon">🎨</div>
+    <div class="card-title">原創貼圖</div>
+    <div class="card-desc">收錄原創 LINE 貼圖設計過程與發布資訊，分享創作心得。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
----
+  <a class="card" href="#/markdowns/chromeextension/README">
+    <div class="card-icon">🔩</div>
+    <div class="card-title">Chrome 擴充套件</div>
+    <div class="card-desc">精選提升生產力的 Chrome 擴充套件推薦與使用教學。</div>
+    <div class="card-link">→ 進入</div>
+  </a>
 
-> 🔄 持續自動更新中，歡迎探索各個主題。
+</div>
+
+<style>
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.card {
+  display: block;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 32px 24px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #00d4ff;
+  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.15);
+  text-decoration: none;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00d4ff;
+  margin-bottom: 12px;
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.card-link {
+  color: #00d4ff;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
