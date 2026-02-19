@@ -44,38 +44,52 @@
         background-color: #0d0d0d;
       }
 
-      /* Center navbar links */
+      /* Navbar: 置中 */
       .app-nav {
-        text-align: center !important;
-        right: 0 !important;
-        left: 0 !important;
-        margin: 0 auto !important;
-        width: 100% !important;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 12px 0;
+        z-index: 100;
       }
       .app-nav > ul {
         display: flex !important;
-        justify-content: center !important;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 8px;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+      }
+      .app-nav > ul > li > a {
+        color: #cccccc !important;
+        font-size: 15px;
+        padding: 6px 14px;
+      }
+      .app-nav > ul > li > a:hover {
+        color: #00d4ff !important;
       }
 
-      /* Navbar dropdown dark background */
-      .app-nav ul {
+      /* 下拉子選單才加黑底 */
+      .app-nav > ul > li > ul {
         background-color: #111111 !important;
         border: 1px solid #333 !important;
         border-radius: 8px !important;
         box-shadow: 0 4px 16px rgba(0,0,0,0.6) !important;
+        min-width: 160px;
       }
-      .app-nav ul li a {
+      .app-nav > ul > li > ul li a {
         color: #cccccc !important;
       }
-      .app-nav ul li a:hover {
+      .app-nav > ul > li > ul li a:hover {
         color: #00d4ff !important;
         background-color: #1a1a1a !important;
-      }
-      .app-nav li:hover ul {
-        background-color: #111111 !important;
       }
 
       /* Card styles */
@@ -107,35 +121,25 @@
         box-shadow: 0 8px 30px rgba(0, 212, 255, 0.35);
         border-color: #00d4ff;
         color: #e0e0e0 !important;
-        text-decoration: none !important;
       }
       .card-icon {
-        font-size: 2rem;
-        margin-bottom: 10px;
-      }
-      .card-title {
-        font-size: 1rem;
-        font-weight: bold;
-        color: #00d4ff;
+        font-size: 36px;
         margin-bottom: 8px;
       }
-      .card-desc {
-        font-size: 0.82rem;
-        color: #aaaaaa;
-        line-height: 1.5;
-        margin-bottom: 12px;
-      }
-      .card-tag {
-        display: inline-block;
-        background: #1a3a4a;
+      .card-title {
+        font-size: 17px;
+        font-weight: 600;
         color: #00d4ff;
-        font-size: 0.7rem;
-        padding: 4px 10px;
-        border-radius: 12px;
-        margin: 2px;
+        margin-bottom: 6px;
+      }
+      .card-desc {
+        font-size: 13px;
+        color: #aaa;
+        line-height: 1.4;
       }
     </style>
   </head>
+
   <body>
     <div id="app"></div>
     <script>
@@ -143,17 +147,11 @@
         name: "知識聚合自動化",
         repo: "https://github.com/jaylooloomi/docsify",
         loadSidebar: true,
-        subMaxLevel: 2,
+        subMaxLevel: 3,
         auto2top: true,
-        search: {
-          paths: "auto",
-          placeholder: "🔍 搜尋...",
-          noData: "😞 找不到結果",
-          depth: 3,
-        },
+        loadNavbar: true,
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
