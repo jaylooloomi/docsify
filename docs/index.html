@@ -2,7 +2,7 @@
 <html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
-    <title>知識聯合自動化</title>
+    <title>知識聚合自動化</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" />
     <link rel="icon" href="https://api.iconify.design/fluent/brain-circuit-24-filled.svg?color=%2300d4ff" type="image/svg+xml" />
@@ -43,13 +43,83 @@
       .content {
         background-color: #0d0d0d;
       }
+
+      /* Navbar dropdown dark background */
+      .app-nav ul {
+        background-color: #111111 !important;
+        border: 1px solid #333 !important;
+        border-radius: 8px !important;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.6) !important;
+      }
+      .app-nav ul li a {
+        color: #cccccc !important;
+      }
+      .app-nav ul li a:hover {
+        color: #00d4ff !important;
+        background-color: #1a1a1a !important;
+      }
+      .app-nav li:hover ul {
+        background-color: #111111 !important;
+      }
+
+      /* Card styles */
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 24px;
+      }
+      @media (max-width: 768px) {
+        .card-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .card {
+        display: block;
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 12px;
+        padding: 20px 16px;
+        text-align: center;
+        text-decoration: none !important;
+        color: #e0e0e0 !important;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        cursor: pointer;
+      }
+      .card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 30px rgba(0, 212, 255, 0.35);
+        border-color: #00d4ff;
+        color: #e0e0e0 !important;
+        text-decoration: none !important;
+      }
+      .card-icon {
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      .card-title {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #00d4ff;
+        margin-bottom: 8px;
+      }
+      .card-desc {
+        font-size: 0.82rem;
+        color: #aaaaaa;
+        line-height: 1.5;
+        margin-bottom: 12px;
+      }
+      .card-link {
+        font-size: 0.82rem;
+        color: #00d4ff;
+      }
     </style>
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: '📚 知識聯合自動化',
+        name: '📚 知識聚合自動化',
         repo: 'jaylooloomi/docsify',
         loadSidebar: true,
         loadNavbar: true,
